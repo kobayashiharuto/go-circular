@@ -11,16 +11,13 @@ func main() {
 	fmt.Println("Hello")
 
 	user := user.User{
-		Name:  "Haruto",
-		Posts: []post.Post{},
+		Name: "Haruto",
 	}
 
 	post := post.Post{
 		Title:  "Hello",
 		Author: user,
 	}
-
-	user.Posts = append(user.Posts, post)
 
 	fmt.Println(user)
 	fmt.Println(post)
