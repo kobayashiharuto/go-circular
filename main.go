@@ -3,19 +3,18 @@ package main
 import (
 	"fmt"
 
-	"haruto.dev/go-circular/post"
-	"haruto.dev/go-circular/user"
+	"haruto.dev/go-circular/model"
 )
 
 func main() {
 	fmt.Println("Hello")
 
-	user := user.User{
+	user := model.User{
 		Name:  "Haruto",
-		Posts: []post.Post{},
+		Posts: []model.Post{},
 	}
 
-	post := post.Post{
+	post := model.Post{
 		Title:  "Hello",
 		Author: user,
 	}
