@@ -1,0 +1,26 @@
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Go modules and dependencies
+/vendor/
+/go.sum
+/go.mod
+
+# Compiled binaries
+/bin/
+/build/
+
+# IDE and editor specific files
+/.idea/
+/.vscode/
+*.swp
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
