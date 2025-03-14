@@ -1,8 +1,8 @@
 package post
 
-import "haruto.dev/go-circular/user"
+import "haruto.dev/go-circular/common"
 
 type Post struct {
 	Title  string
-	Author user.User
+	Author common.UserRef
 }

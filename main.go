@@ -10,7 +10,7 @@ import (
 func main() {
 	fmt.Println("Hello")
 
-	user := user.User{
+	user := &user.User{
 		Name:  "Haruto",
 		Posts: []post.Post{},
 	}
